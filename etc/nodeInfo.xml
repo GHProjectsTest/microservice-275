@@ -2,5 +2,5 @@
 	<adminName></adminName>
 	<adminEmail></adminEmail>
 	<organization>Advanced Community Information Systems (ACIS) Group, RWTH Aachen University</organization>
-	<description>This node hosts the R service.</description>
+	<description>This node hosts the Mensa service.</description>
 </las2peerNode>

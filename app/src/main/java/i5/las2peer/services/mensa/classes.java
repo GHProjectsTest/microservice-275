@@ -1,4 +1,4 @@
-package i5.las2peer.services.r;
+package i5.las2peer.services.mensa;
 
 import java.util.*;
 import org.json.simple.*;

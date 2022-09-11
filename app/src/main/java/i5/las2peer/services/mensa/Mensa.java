@@ -1,4 +1,4 @@
-package i5.las2peer.services.r;
+package i5.las2peer.services.mensa;
 
 
 import java.net.HttpURLConnection;
@@ -45,15 +45,15 @@ import java.util.Map;
  * outsourced to (imported) classes.
  *
  */
-@ServicePath("")
+@ServicePath("mensa")
 @ManualDeployment
-public class R extends RESTService {
+public class Mensa extends RESTService {
 
 
 
 
 
-  public R() {
+  public Mensa() {
 	super();
     // read and set properties values
     setFieldValues();
@@ -80,7 +80,7 @@ public class R extends RESTService {
   @Path("/")
   public static class RootResource {
 
-    private final R service = (R) Context.getCurrent().getService();
+    private final Mensa service = (Mensa) Context.getCurrent().getService();
 
     
 
